@@ -1,0 +1,45 @@
+.flex div, .flex2 div{
+    width: 32%;
+    margin-bottom: 10px;
+}
+.box1{
+    background: gray;
+    height: 150px;
+}
+
+.box2{
+    background: red;
+    height: 150px;
+    align-self: center;
+}
+
+.box3{
+    background: yellow;
+    height: 150px;
+    align-self: flex-end;
+}
+
+.flex{
+    display: flex;
+    justify-content: flex-start;
+    height: 450px;
+
+}
+
+.flex2{
+    display: flex;
+    justify-content: flex-start;
+    height: 450px;
+}
+
+.box11{
+    background: gray;
+    height: 150px;
+    align-self: center
+}
+
+.box21{
+    background: red;
+    height: 150px;
+    align-self: flex-start;
+}
